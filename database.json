@@ -1,0 +1,43 @@
+{
+  "accounts": [
+    {
+      "id": 0,
+      "name": "Nubank",
+      "type": "Ativo",
+      "initialBalance": "7000"
+    },
+    {
+      "id": 1,
+      "name": "Mercado Pago",
+      "type": "Ativo",
+      "initialBalance": "0"
+    }
+  ],
+  "transactions": [
+    {
+      "type": "Receita",
+      "accountId": 0,
+      "value": "1000",
+      "date": null
+    },
+    {
+      "type": "Transferência",
+      "fromId": 0,
+      "toId": 1,
+      "value": "3000",
+      "date": null
+    },
+    {
+      "type": "Transferência",
+      "fromId": 1,
+      "toId": 0,
+      "value": "500"
+    },
+    {
+      "type": "Despesa",
+      "date": "2024-11-24T03:24:59.154Z",
+      "accountId": 1,
+      "value": "342"
+    }
+  ]
+}
